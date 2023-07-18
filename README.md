@@ -22,7 +22,7 @@
 - 要求定義からの設計と検証を並行して行う、フロントエンドファーストな可視化スキル
 
 
-- 並列処理、非同期処理を活用した 1,000 万件以上の大規模クエリを伴う演算処理が得意。
+- 並列処理、非同期処理を活用した 1,000 万件以上の大規模クエリを伴う高速な演算処理が得意。
 
 
 - 上記と同様の複数コンテナを利用した大規模なクローラ作成が得意。
@@ -34,48 +34,47 @@
 - 大規模なデータの加工や Elastic Search を用いた全文検索等の設計・開発を一貫した開発が可能。
 
 
-## **開発技術・強み**
-
-### **自身の強み**
+## **開発技術、およびコミュニケーションにおける自身の強み**
 
 
-- **コミュニケーション**
+
+### **コミュニケーション**
 
 
-    - 言語化が難しい要望を発注者に対して可視化し、言語化を促すこと
+- 言語化が難しい要望を発注者に対して可視化し、言語化を促すこと
 
 
-    - 発注者(社内外)との円滑なコミュニケーション
+- 発注者(社内外)との円滑なコミュニケーション
 
 
-    - 要求定義から詳細設計までの正確かつ迅速な落とし込み
+- 要求定義から詳細設計までの正確かつ迅速な落とし込み
 
 
-- **開発スキル**
+### **開発スキル**
 
 
-    - async & await での非同期処理の理解
+- async & await での非同期処理の理解
 
 
-    - Docker を用いたコンテナ操作、デプロイに関する知識
+- Docker を用いたコンテナ操作、デプロイに関する知識
 
 
-    - AWS を用いたサーバー・データベース設計
+- AWS を用いたサーバー・データベース設計
 
 
-    - MVT フレームワーク(Django(Python3)) を用いたバックエンド API 及びサーバーサイドレンダリングアプリケーションの開発知識
+- MVT フレームワーク(Django(Python3)) を用いたバックエンド API 及びサーバーサイドレンダリングアプリケーションの開発知識
 
 
-    - MVC フレームワーク(Echo(Golang), FastAPI(Python3), Flask(Python3))を用いたサーバーサイドレンダリングアプリケーションの開発知識
+- MVC フレームワーク(Echo(Golang), FastAPI(Python3), Flask(Python3))を用いたサーバーサイドレンダリングアプリケーションの開発知識
 
 
-    - React (JavaScript / TypeScript)を用いた SPA フロントエンドアプリケーションの開発知識
+- React (JavaScript / TypeScript)を用いた SPA フロントエンドアプリケーションの開発知識
 
 
-    - Debian 系の Linux OS を中心とした理解
+- Debian 系の Linux OS を中心とした理解
 
 
-### **開発における実務経験等**
+## **開発における実務経験等**
 
 
 - ブラウザ情報のクローリング、各種 API を使用したデータ収集(非同期、並列、プロキシ環境等含む)
@@ -111,7 +110,7 @@
 - 単体 / 結合テスト
 
 
-### **実務レベルで使用可能な言語など**
+## **実務レベルで使用可能な言語など**
 
 
 - Python3
@@ -132,17 +131,17 @@
 - Google App Script
 
 
-### **過去に実務で使用したフレームワーク・ライブラリの例**
+## **過去に実務で使用したフレームワーク・ライブラリの例**
 
 
 | 言語 | フレームワーク・ライブラリ|
 | ---- | ---- |
-| JavaScript / TypeScript | jQuery, Node.js, ReactJS |
+| JavaScript/TypeScript | jQuery, Node.js, ReactJS |
 | Design | bootstrap, MaterialUI, TailwindCSS |
 | AWS | Route53, S3, CloudWatch, EC2, LightSail, RDS, Lambda, CloudFront |
 | infrastructure | FTP server, Docker,  Nginx, Apache, Elastic Search |
 | Database | phpMyAdmin, MySQL, PostgreSQL |
-| Python3 | asyncio, aiohttp, numpy, pandas, Django, Flask, FastAPI Transformers, pytorch, keras, cuda, selenium |
+| Python3 | asyncio, aiohttp, numpy, pandas, Django, Flask, FastAPI, Transformers, pytorch, keras, cuda, selenium |
 | Go | Echo |
 | OS | Debian, Ubuntu, CentOS, MacOs, Windows |
 
@@ -246,7 +245,7 @@ Elastic Search においては日本語対応の経験を持つ。
 - その他、採用代行やアウトバウンドコールの代行の案件を行う。(人事/広報領域がメイン)
 
 
-### **2017 年: 人材紹介会社に新卒入社。営業職(インサイドセールス/嘱託社員)として勤務**
+### **2017 年: 人材紹介会社に新卒入社。営業職(インサイドセールス)として勤務**
 
 
 私のキャリアの入口は営業職だ。
@@ -261,7 +260,7 @@ Elastic Search においては日本語対応の経験を持つ。
 - 業界ごとのニーズや、求人倍率、業界の将来の課題を自身なりに把握。
 
 
-- インサイドセールスチームの立ち上げ時期の苦しさを経験した。
+- インサイドセールスチームの立ち上げ時期の現場の苦しみを経験した。
 
 
 - 休日の余暇時間を用いて `Python3` を用いて営業リスト作成のためのクローラーの作成し、実務でも使用。
