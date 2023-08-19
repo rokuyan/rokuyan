@@ -34,6 +34,9 @@
 - 大規模なデータの加工や Elastic Search を用いた全文検索等の設計・開発を一貫した開発が可能。
 
 
+- IaC(Terraform) を用いたスピーディーな AWS のインスタンス設計・構築
+
+
 ## **開発技術、およびコミュニケーションにおける自身の強み**
 
 
@@ -41,7 +44,7 @@
 ### **コミュニケーション**
 
 
-- 言語化が難しい要望から企画・設計・初期デプロイまでの導線を引き、示すこと
+- 言語化が難しい要望から企画・設計・初期デプロイまでの導線を引き形にすること
 
 
 - 要求定義から詳細設計までの正確かつ迅速な落とし込み
@@ -57,6 +60,9 @@
 
 
 - Docker を用いたコンテナ操作、デプロイに関する知識
+
+
+- Terraform を用いた高速なインフラ構築技術
 
 
 - AWS を用いたサーバー・データベース設計
@@ -128,22 +134,19 @@
 - ShellScript
 
 
-- Google App Script
-
-
 ## **過去に実務で使用したフレームワーク・ライブラリの例**
 
 
-| 言語 | フレームワーク・ライブラリ|
+| 分類 | フレームワーク・ライブラリ|
 | ---- | ---- |
-| JavaScript/TypeScript | jQuery, Node.js, ReactJS |
+| JavaScript/TypeScript | Google App Script, Node.js, ReactJS |
 | Design | bootstrap, MaterialUI, TailwindCSS |
 | AWS | Route53, S3, CloudWatch, EC2, LightSail, RDS, Lambda, CloudFront |
-| infrastructure | FTP server, Docker,  Nginx, Apache, Elastic Search |
+| infrastructure | Terraform, FTP server, Docker,  Nginx, Apache, Elastic Search |
 | Database | phpMyAdmin, MySQL, PostgreSQL |
 | Python3 | asyncio, aiohttp, numpy, pandas, Django, Flask, FastAPI, Transformers, pytorch, keras, cuda, selenium |
 | Go | Echo |
-| OS | Debian, Ubuntu, CentOS, MacOs, Windows |
+| OS | Debian, Ubuntu, Amazon Linux2(CentOS), MacOs, Windows |
 
 
 <br>
@@ -160,20 +163,20 @@ Elastic Search においては日本語対応の経験を持つ。
 ### **開発ツール等**
 |  分類  |  ツール名  |
 | ---- | ---- |
-| エディター | vim, VSCode |
+| エディター | vim, neovim, VSCode |
 | ターミナル | bash, zsh |
 | ウインドウマネージャー | gnome, xfce |
 | 設計ツール | drawio |
 | コミュニケーションツール | Google Meets, Slack, Zoom, LINE, Chatwork, messenger, Discord |
-| プロジェクト管理 | Trello, YouTrack |
-| OS | Debian, Ubuntu, kali linux, CentOS, Mac, Windows |
+| プロジェクト管理 | Trello |
+| OS | Debian, Ubuntu, kali linux, Amazon Linux2(CentOS), Mac, Windows |
 
 
 私は vim の愛好家だ。
 
 
 好きな OS は Debian 系。<br>
-現在は Ubuntu を自宅で愛用。
+現在は Ubuntu を自宅で愛用している。
 
 
 ## **経歴**
@@ -191,13 +194,13 @@ Elastic Search においては日本語対応の経験を持つ。
 - OpenAI を用いた業務効率化用 WEB アプリケーションの開発を担当。
 
 
-- 小規模組織のため、設計から開発まで全てを 1 人で担当。
+- 小規模組織のため、企画から設計、開発まで全てを 1 人で担当。
 
 
-- 事業買収したシステムとの統合業務(2 名体制)
+- 事業買収したシステムとの統合、及び新規事業開発業務(2 名体制)
 
 
-- 社内向けの RPA アプリケーションの開発。(API 等を用いて特定業務を自動化、等)
+- 社内向けの RPA アプリケーションの開発。(API 等を用いて特定業務を自動化等)
 
 
 - 使用言語は `Python3`, `JavaScript`, `TypeScript` 。
@@ -287,13 +290,18 @@ Elastic Search においては日本語対応の経験を持つ。
 開発系だけでなく、新規事業企画、既存の業務効率化等、少しでもお悩みがございましたらお気軽にご相談ください。
 
 
+条件次第ではありますが、業務委託承っております。
+
+
 <p align="center">
     <a href="https://discordapp.com/users/979753282710945792">
         <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
     </a>
-    <a href="https://line.me/ti/p/sqMIBlZLow">
-        <img src="https://img.shields.io/badge/Line-00C300?style=for-the-badge&logo=line&logoColor=white">
-    </a>
+<!--
+<a href="https://line.me/ti/p/sqMIBlZLow">
+    <img src="https://img.shields.io/badge/Line-00C300?style=for-the-badge&logo=line&logoColor=white">
+</a>
+-->
     <a href="https://m.me/RokuroOgita">
         <img src="https://img.shields.io/badge/Messenger-00B2FF?style=for-the-badge&logo=messenger&logoColor=white">
     </a>
