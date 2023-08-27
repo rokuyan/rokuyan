@@ -24,6 +24,8 @@
 
 - IaC(Terraform) を用いたスピーディーな AWS のインスタンス設計・構築
 
+- GitHub Actions を用いた CI/CD の設計・構築
+
 ## **開発技術、およびコミュニケーションにおける自身の強み**
 
 ### **コミュニケーション**
@@ -76,9 +78,9 @@
 
 - git を用いたコードの管理
 
-- 単体 / 結合テスト
+- GitHub Actions を用いた CI/CD の構築
 
-- CI/CD
+- Terraform を用いたインフラ構築
 
 ## **実務レベルで使用可能な言語など**
 
@@ -99,7 +101,8 @@
 | JavaScript/TypeScript | Google App Script, Node.js, ReactJS |
 | Design | bootstrap, MaterialUI, TailwindCSS |
 | AWS | Route53, S3, CloudWatch, EC2, LightSail, RDS, Lambda, CloudFront |
-| infrastructure | Terraform, FTP server, Docker,  Nginx, Apache, Elastic Search, GitHub Actions |
+| infrastructure | Terraform, FTP server, Docker,  Nginx, Apache, Elastic Search |
+| CI/CD | GitHub Actions |
 | Database | phpMyAdmin, MySQL, PostgreSQL |
 | Python3 | asyncio, aiohttp, numpy, pandas, Django, Flask, FastAPI, Transformers, pytorch, keras, cuda, selenium |
 | Go | Echo |
