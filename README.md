@@ -106,13 +106,13 @@ IaC を用いたインフラ構築の高速化だけでなく、自動テスト�
 | ---- | ---- |
 | JavaScript/TypeScript | Google App Script, Node.js, ReactJS |
 | Design | bootstrap, MaterialUI, TailwindCSS |
-| AWS | Route53, S3, CloudWatch, EC2, LightSail, RDS, Lambda, CloudFront |
+| AWS | Route53, S3, CloudWatch, EC2, LightSail, RDS, Lambda, CloudFront, ECS |
 | infrastructure | Terraform, FTP server, Docker,  Nginx, Apache, Elastic Search |
 | CI/CD | GitHub Actions |
 | Database | phpMyAdmin, MySQL, PostgreSQL |
 | Python3 | asyncio, aiohttp, numpy, pandas, Django, Flask, FastAPI, Transformers, pytorch, keras, cuda, selenium |
 | Go | Echo |
-| OS | Debian, Ubuntu, Amazon Linux2(CentOS), MacOs, Windows |
+| OS | Debian, Ubuntu, Amazon Linux2(CentOS), MacOS, Windows |
 
 <br>
 Elastic Search においては日本語対応の経験を持つ。
