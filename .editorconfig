@@ -1,0 +1,14 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
+indent_style = space
+
+[*.{py,sh,go,php}]
+indent_size = 4
+
+[*.{json,yml,js,tsx,jsx,css,tf,ts,md}]
+indent_size = 2
