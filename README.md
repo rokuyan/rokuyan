@@ -16,13 +16,15 @@
 
 - 特定業務の自動化のフローの設計・構築
 
-- 並列処理、非同期処理を活用した 1,000 万件以上の大規模クエリを伴う高速な演算処理が得意。
+- 並列処理、非同期処理を活用した 1,000 万件以上の大規模クエリを伴う構造化データの高速な演算処理が得意。
 
 - 上記と同様の複数コンテナを利用した大規模なクローラ作成が得意。
 
 - OAuth, JWT, Session・Cookie 全ての認証パターンで開発可能。
 
 - 大規模なデータの加工や Elastic Search を用いた全文検索等の設計・開発を一貫した開発が可能。
+
+- Redis を活用したキャッシュサーバー等、高速処理を必要とするアプリケーションの開発
 
 - IaC(Terraform) を用いたスピーディーな AWS のインスタンス設計・構築
 
@@ -62,6 +64,8 @@ IaC を用いたインフラ構築の高速化だけでなく、自動テスト�
 
 - Debian 系の Linux OS を中心とした理解
 
+- 構造化データを用いた機械学習アプリケーションのデータ前処理・設計・開発の知識
+
 ## **開発における実務経験等**
 
 - ブラウザ情報のクローリング、各種 API を使用したデータ収集(非同期、並列、プロキシ環境等含む)
@@ -79,6 +83,8 @@ IaC を用いたインフラ構築の高速化だけでなく、自動テスト�
 - React(JavaScript / TypeScript) を用いたフロントエンドアプリケーションの作成
 
 - OpenAI(ChatGPT) API を用いた WEB アプリケーションの設計・開発・予算管理
+
+- Redis, ElasticSearch 等を用いた高速なデータ操作アプリケーションの構築
 
 - Docker を用いたプロジェクト管理
 
@@ -107,10 +113,10 @@ IaC を用いたインフラ構築の高速化だけでなく、自動テスト�
 | JavaScript/TypeScript | Google App Script, Node.js, ReactJS |
 | Design | bootstrap, MaterialUI, TailwindCSS |
 | AWS | Route53, S3, CloudWatch, EC2, LightSail, RDS, Lambda, CloudFront, ECS |
-| infrastructure | Terraform, FTP server, Docker,  Nginx, Apache, Elastic Search |
+| Infrastructure | Terraform, FTP server, Docker,  Nginx, Apache, Elastic Search |
 | CI/CD | GitHub Actions |
-| Database | phpMyAdmin, MySQL, PostgreSQL |
-| Python3 | asyncio, aiohttp, numpy, pandas, Django, Flask, FastAPI, Transformers, pytorch, keras, cuda, selenium |
+| Database | MySQL, PostgreSQL, Redis |
+| Python3 | asyncio, aiohttp, numpy, pandas, scikit-learn, Django, Flask, FastAPI, Transformers, pytorch, keras, cuda, selenium |
 | Go | Echo |
 | OS | Debian, Ubuntu, Amazon Linux2(CentOS), MacOS, Windows |
 
@@ -119,7 +125,7 @@ Elastic Search においては日本語対応の経験を持つ。
 <br>
 
 <p align="center">
-    <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=8&i=python,go,django,flask,fastapi,react,postgres,mysql,docker,bash,js,html,css,jquery,nodejs,typescript,bootstrap,tailwind,mui,webpack,aws,git,github,linux,pytorch,selenium,postman,vscode,vim" />
+    <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=8&i=python,go,django,flask,fastapi,react,postgres,mysql,redis,docker,bash,js,html,css,jquery,nodejs,typescript,bootstrap,tailwind,mui,webpack,aws,git,github,linux,pytorch,selenium,postman,vscode,vim" />
 </p>
 
 ### **開発ツール等**
@@ -147,6 +153,8 @@ Elastic Search においては日本語対応の経験を持つ。
 2022 年 7 月から WEB エンジニア(正社員)として就職。
 
 - ビッグデータの解析、及びそのデータの可視化を行う WEB アプリケーションの開発を担当。
+
+- メモリに乗り切らないサイズの大規模データの解析業務を担当。
 
 - OpenAI を用いた業務効率化用 WEB アプリケーションの開発を担当。
 
@@ -217,15 +225,19 @@ Elastic Search においては日本語対応の経験を持つ。
 条件次第ではありますが、業務委託承っております。
 
 <p align="center">
+    <a href="https://www.linkedin.com/in/rokuro-ogita-9553a917b/">
+        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+    </a>
     <a href="https://discordapp.com/users/979753282710945792">
         <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
     </a>
+    <a href="https://m.me/RokuroOgita">
+        <img src="https://img.shields.io/badge/Messenger-00B2FF?style=for-the-badge&logo=messenger&logoColor=white">
+    </a>
+</p>
+
 <!--
 <a href="https://line.me/ti/p/sqMIBlZLow">
     <img src="https://img.shields.io/badge/Line-00C300?style=for-the-badge&logo=line&logoColor=white">
 </a>
 -->
-    <a href="https://m.me/RokuroOgita">
-        <img src="https://img.shields.io/badge/Messenger-00B2FF?style=for-the-badge&logo=messenger&logoColor=white">
-    </a>
-</p>
