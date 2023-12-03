@@ -12,6 +12,8 @@
 
 - 事業企画、および非開発者の要求定義の補助からの高速な設計・実装。
 
+- ビジネスサイドへのプレゼンテーション, およびフォロー等
+
 - 要求定義からの設計と検証を並行して行う、フロントエンドファーストな可視化スキル
 
 - 特定業務の自動化のフローの設計・構築
@@ -74,6 +76,8 @@ IaC を用いたインフラ構築の高速化だけでなく、自動テスト�
 
 - GPT-2 を用いた自然言語処理アプリケーションの構築(データ収集～追加学習のみ)
 
+- ChatGPT(GPT3.5) との通信を含むビジネスサイドユーザ用アプリケーションの開発
+
 - 要求定義、要件定義、基本設計等の一連のプロセス管理
 
 - Django(Python3), FastAPI(Python3) を用いたバックエンド API の作成
@@ -88,11 +92,11 @@ IaC を用いたインフラ構築の高速化だけでなく、自動テスト�
 
 - Docker を用いたプロジェクト管理
 
-- git を用いたコードの管理
-
 - GitHub Actions を用いた CI/CD の構築
 
 - Terraform を用いたインフラ構築
+
+- GitHub 運用ルールを含む情報システム部の社内ルールの制定
 
 ## **実務レベルで使用可能な言語など**
 
@@ -110,19 +114,21 @@ IaC を用いたインフラ構築の高速化だけでなく、自動テスト�
 
 | 分類 | フレームワーク・ライブラリ|
 | ---- | ---- |
-| JavaScript/TypeScript | Google App Script, Node.js, ReactJS |
+| JavaScript/TypeScript | Google App Script, Node.js, ReactJS, nextjs |
 | Design | bootstrap, MaterialUI, TailwindCSS |
-| AWS | Route53, S3, CloudWatch, EC2, LightSail, RDS, Lambda, CloudFront, ECS |
+| AWS | Route53, S3, CloudWatch, EC2, RDS, Lambda, CloudFront, ECS, ElasticCache |
 | Infrastructure | Terraform, FTP server, Docker,  Nginx, Apache, Elastic Search |
 | CI/CD | GitHub Actions |
-| Database | MySQL, PostgreSQL, Redis |
-| Python3 | asyncio, aiohttp, numpy, pandas, scikit-learn, Django, Flask, FastAPI, Transformers, pytorch, keras, cuda, selenium |
+| Database | MySQL, PostgreSQL, Redis, MongoDB |
+| Python3 | asyncio, aiohttp, numpy, pandas, polars, scikit-learn, Django, Flask, FastAPI, Transformers, pytorch, keras, cuda, selenium |
 | Go | Echo |
 | OS | Debian, Ubuntu, Amazon Linux2(CentOS), MacOS, Windows |
 
 <br>
-Elastic Search においては日本語対応の経験を持つ。
+計算速度を求められるアプリケーションの開発の経験を持っており、NoSQL, もしくはそれと類似した仕組みのフレームワーク・ライブラリの使用経験を持つ。
 <br>
+
+また、 ChatGPT(3.5) との通信を含む小規模アプリケーションの開発経験もあり。
 
 <p align="center">
     <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=8&i=python,go,django,flask,fastapi,react,postgres,mysql,redis,docker,bash,js,html,css,jquery,nodejs,typescript,bootstrap,tailwind,mui,webpack,aws,git,github,linux,pytorch,selenium,postman,vscode,vim" />
@@ -140,11 +146,6 @@ Elastic Search においては日本語対応の経験を持つ。
 | CI/CD | GitHub Actions |
 | IaC | Terraform |
 | OS | Debian, Ubuntu, kali linux, Amazon Linux2(CentOS), Mac, Windows |
-
-私は vim の愛好家だ。
-
-好きな OS は Debian 系。<br>
-現在は Ubuntu を自宅で愛用している。
 
 ## **経歴**
 
@@ -222,7 +223,7 @@ Elastic Search においては日本語対応の経験を持つ。
 
 開発系だけでなく、新規事業企画、既存の業務効率化等、少しでもお悩みがございましたらお気軽にご相談ください。
 
-条件次第ではありますが、業務委託承っております。
+条件次第ですが、業務委託承っております。
 
 <p align="center">
     <a href="https://www.linkedin.com/in/rokuro-ogita-9553a917b/">
