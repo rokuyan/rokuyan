@@ -2,11 +2,7 @@
 
 ## **自己紹介**
 
-私は特に Pyhon3 を得意とする 1994 年生まれの日本人の WEB エンジニアだ。
-
-自身の価値を最も発揮できるのは企画を含む 0 → 1 フェーズでの開発だ。
-
-得意なことは以下のとおり。
+私が自身の価値を最も発揮できるのは企画を含む 0 → 1 フェーズでの開発だ。
 
 - Python3 がコアスキル
 
@@ -14,25 +10,13 @@
 
 - サーバーレスアプリケーション(ECS, Amplify 等)の迅速な設計・実装
 
-- ビジネスサイドへのプレゼンテーション, およびフォロー等
+- ビジネスサイドへの企画のプレゼンテーション, およびフォロー等
 
-- 要求定義からの設計と検証を並行して行う、フロントエンドファーストな可視化スキル
+- 現場の要求定義から設計と検証を並行して行う、フロントエンドファーストな可視化スキル
 
-- 特定業務の自動化のフローの設計・構築
+- 並列、非同期処理を活用した数千万 〜 数億件以上の大規模クエリを伴う構造化データの高速な演算処理。
 
-- 並列処理、非同期処理を活用した数千万件以上の大規模クエリを伴う構造化データの高速な演算処理が得意。
-
-- OAuth, JWT, Session・Cookie 全ての認証パターンで開発可能。
-
-- 大規模なデータの加工や Elastic Search を用いた全文検索等の設計・開発を一貫した開発が可能。
-
-- Redis, ElasticSearch 等の NoSQL like なアーキテクチャを活用した高速な処理を必要とするアプリケーションの開発
-
-- IaC(Terraform) を用いたスピーディーな AWS のインスタンス設計・構築
-
-- GitHub Actions を用いた CI/CD の設計・構築
-
-IaC を用いたインフラ構築の高速化だけでなく、自動テスト・自動デプロイなどを早期から着手し、チームに情報を共有するように心がけている。
+- Redis, ElasticSearch 等の Document Storage アーキテクチャを活用した高速な処理を必要とするアプリケーションの開発
 
 開発者以外とのコミュニケーションも積極的に行い、専門用語をなるべく用いず、わかりやすいコミュニケーションを常に意識している。
 
@@ -44,116 +28,84 @@ IaC を用いたインフラ構築の高速化だけでなく、自動テスト�
 
 - 要求定義から詳細設計までの正確かつ迅速な落とし込み
 
-- サーバー費用からのエンドユーザへのサービスの価格定義等
+- サーバー費用からのエンドユーザへのサービスの価格設定等の企画
 
 - 非開発者を含む発注者(社内外)との丁寧で円滑なコミュニケーション
 
-### **開発スキル**
+### **スキル**
 
-- async & await での非同期処理の理解
+- 要求定義、アーキテクチャ設計、要件定義、基本設計、詳細設計等の一連のプロセス管理
 
-- Docker を用いたコンテナ操作、デプロイに関する知識
+- 非同期, および並列処理への理解
+
+- Docker を用いたコンテナ操作、ビルド、デプロイに関する知識
 
 - Terraform を用いた高速なインフラ構築技術
 
 - GitHub Actions を用いた CI/CD の構築技術
 
-- AWS を用いたサーバー・データベース設計
+- AWS を用いたアーキテクチャ設計・実装技術
 
-- バックエンド API の構築技術
-
-- サーバーサイドレンダリングアプリケーションの構築技術
-
-- React (JavaScript / TypeScript)を用いたフロントエンドアプリケーションの開発知識
-
-- Debian 系の Linux OS を中心とした理解
+- バックエンド / フロントエンド の横断的な開発知識
 
 - 構造化データを用いた機械学習アプリケーションのデータ前処理・設計・開発の知識
 
-## **開発における実務経験等**
+- OpenAI(ChatGPT/GPT3.5-turbo) API を用いた WEB アプリケーションの設計・開発・予算管理
 
-- GPT-2 を用いた自然言語処理アプリケーションの構築(データ収集～追加学習のみ)
-
-- ChatGPT(GPT3.5) との通信を含むビジネスサイドユーザ用アプリケーションの開発
-
-- 要求定義、アーキテクチャ設計、要件定義、基本設計、詳細設計等の一連のプロセス管理
-
-- Django(Python3), FastAPI(Python3) を用いたバックエンド API の作成
-
-- Django (Python3) を用いたサーバーサイドレンダリングアプリケーションの作成
-
-- React(JavaScript / TypeScript) を用いたフロントエンドアプリケーションの作成
-
-- OpenAI(ChatGPT) API を用いた WEB アプリケーションの設計・開発・予算管理
-
-- Redis, ElasticSearch 等を用いた高速なデータ操作アプリケーションの構築
-
-- Docker を用いたプロジェクト管理
-
-- GitHub Actions を用いた CI/CD の構築
-
-- Terraform を用いたインフラ構築
-
-- GitHub 運用ルールを含む情報システム部の社内ルールの制定
+- 開発チームの社内ルールの制定
 
 ## **実務レベルで使用可能な言語など**
 
 - Python3
 
-- JavaScript
+    Django, FastAPI, Flask
 
-- TypeScript
+- JavaScript / TypeScript
 
-- SQL
-
-- ShellScript
+    Next.js, React
 
 ## **過去に実務で使用したフレームワーク・ライブラリの例**
 
 | 分類 | フレームワーク・ライブラリ|
 | ---- | ---- |
-| JavaScript/TypeScript | Google App Script, Node.js, ReactJS, nextjs |
+| JavaScript/TypeScript | Google App Script, Node.js, React, Next.js |
 | Design | bootstrap, MaterialUI, TailwindCSS |
-| AWS | Route53, S3, CloudWatch, EC2, RDS, Lambda, CloudFront, ECS, ElasticCache |
+| AWS | Route53, S3, CloudWatch, EC2, RDS, AWS Lambda, CloudFront, ECS, ElasticCache |
 | Infrastructure | Terraform, FTP server, Docker,  Nginx, Apache, Elastic Search |
 | CI/CD | GitHub Actions |
-| Database | MySQL, PostgreSQL, Redis, MongoDB |
-| Python3 | asyncio, aiohttp, numpy, pandas, polars, scikit-learn, Django, Flask, FastAPI, Transformers, pytorch, keras, cuda, selenium |
+| Database | MySQL, PostgreSQL, MongoDB |
+| Document Storage | Redis, ElasticSearch |
+| Python3 | asyncio, aiohttp, numpy, pandas, polars, scikit-learn, Django, Flask, FastAPI, Transformers, PyTorch, keras, cuda, selenium |
 | Go | Echo |
 | OS | Debian, Ubuntu, Amazon Linux2(CentOS), MacOS, Windows |
-
-<br>
-計算速度を求められるアプリケーションの開発の経験を持っており、NoSQL, もしくはそれと類似した仕組みのフレームワーク・ライブラリの使用経験を持つ。
-<br>
-
-また、 ChatGPT(3.5) との通信を含む小規模アプリケーションの開発経験もあり。
 
 <p align="center">
     <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=8&i=python,go,django,flask,fastapi,react,postgres,mysql,redis,docker,bash,js,html,css,jquery,nodejs,typescript,bootstrap,tailwind,mui,webpack,aws,git,github,linux,pytorch,selenium,postman,vscode,vim" />
 </p>
 
 ### **開発ツール等**
+
 |  分類  |  ツール名  |
 | ---- | ---- |
-| エディター | vim, neovim, VSCode |
-| ターミナル | bash, zsh |
+| エディター | VSCode (vim) |
+| ターミナル | bash, zsh, Guake |
 | ウインドウマネージャー | gnome, xfce |
 | 設計ツール | drawio |
-| コミュニケーションツール | Google Meets, Slack, Zoom, LINE, Chatwork, messenger, Discord |
+| コミュニケーションツール | Google Meets, Slack, Zoom, LINE, Chatwork, Messenger, Discord |
 | プロジェクト管理 | Trello |
 | CI/CD | GitHub Actions |
 | IaC | Terraform |
-| OS | Debian, Ubuntu, kali linux, Amazon Linux2(CentOS), Mac, Windows |
+| OS | Debian, Ubuntu, Amazon Linux2(CentOS) |
 
 ## **経歴**
 
 ### **2022 年 ~ 現在(WEB エンジニア / 正社員 | 同時並行で個人で会社経営 )**
 
-2022 年 7 月から WEB エンジニア(正社員)として就職。
+2022 年 7 月から WEB エンジニアとして勤務。
+
+- 1 人目の開発部立ち上げメンバーとして、運用規定等の策定・文書化を実施
 
 - 大規模な構造化データの解析、及びそのデータの可視化を行う WEB アプリケーションの開発を担当。
-
-- メモリに乗り切らないサイズの大規模データの解析業務を担当。
 
 - OpenAI を用いた業務効率化用 WEB アプリケーションの開発を担当。
 
@@ -161,7 +113,7 @@ IaC を用いたインフラ構築の高速化だけでなく、自動テスト�
 
 - 社内向けの RPA アプリケーションの開発。(API 等を用いて特定業務を自動化等)
 
-- 使用言語は `Python3`, `JavaScript`, `TypeScript` 。
+- 使用言語は `Python3`, `TypeScript`, `JavaScript`。
 
 - 使用したフレームワークは `Flask`, `React`, `Django`, `FastAPI`。
 
@@ -169,9 +121,7 @@ IaC を用いたインフラ構築の高速化だけでなく、自動テスト�
 
 自社サービスの開発に取り組むとともに複数の業務委託案件に携わった。
 
-- Django を用いたサーバーサイドレンダリングのアプリケーションを開発。
-
-- Django, React を用いたフルスタック WEB アプリケーションを開発。
+- Django, React を用い、WEB アプリケーションを開発。
 
 - Echo(Go) を用いたサーバーサイドレンダリングのアプリケーションを開発。
 
