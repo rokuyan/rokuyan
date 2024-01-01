@@ -1,0 +1,42 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入しますauto[]
+[
+    {
+        "key": "ctrl+alt+t",
+        "command": "workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "-workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    },
+    // copilot chat を開く
+    {
+        "key": "ctrl+shift+c",
+        "command": "workbench.panel.chat.view.copilot.focus"
+    },
+    // 新規ファイル作成
+    {
+        "key": "n",
+        "command": "explorer.newFile",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+    // 新規ディレクトリ作成
+    {
+        "key": "f",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+    // リネーム
+    {
+        "key":"r",
+        "command": "renameFile",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+    // 削除
+    {
+        "key": "d",
+        "command": "deleteFile",
+        "when": "explorerViewletFocus && explorerViewletVisible && !inputFocus"
+    },
+]

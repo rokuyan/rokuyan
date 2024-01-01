@@ -1,0 +1,197 @@
+{
+    //"terminal.integrated.defaultLocation": "editor",// ターミナルをエディタ内に表示
+    "files.exclude": {
+        "**/.git": false,
+        "**/.DS_Store": false
+    },
+    "editor.fontSize": 14,
+    "chat.editor.fontSize": 14,
+    "window.zoomLevel": -1,
+    "editor.wordWrap": "on",// 1 行が長くならないように折り返す
+    "editor.insertSpaces": true,// tab をスペースとして扱う
+    "extensions.autoUpdate": true,// 拡張機能の自動更新
+    "files.autoGuessEncoding": true,// ファイルの文字コードを自動判別
+    "workbench.colorTheme": "Default Dark+",// テーマ
+    "security.workspace.trust.untrustedFiles": "open",// 信頼されていないファイルを開く
+    "workbench.startupEditor": "none",// 起動時にファイルを開かない
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "redhat.telemetry.enabled": true,
+    "editor.acceptSuggestionOnEnter": "off",
+    "[javascriptreact]": {
+        "editor.tabSize": 2
+    },
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[typescriptreact]": {
+        "editor.tabSize": 2
+    },
+    "[typescript]": {
+        "editor.tabSize": 2
+    },
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.tabSize": 4
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "files.trimTrailingWhitespace": true,// 行末の空白を削除
+    "window.title": "${activeEditorMedium}${separator}${rootName}",
+    "workbench.iconTheme": "material-icon-theme",
+    "yaml.schemas": {
+        "file:///home/rogita/.vscode/extensions/docsmsft.docs-yaml-1.0.1/dist/toc.schema.json": "/toc\\.yml/i"
+    },
+    "hediet.vscode-drawio.resizeImages": null,// 画像のサイズを変更しない
+    "jupyter.interactiveWindow.creationMode": "perFile",// インタラクティブウィンドウをファイルごとに作成
+    "notebook.output.textLineLimit": 50,// 出力セルの行数を 50 行に制限
+
+    "editor.unicodeHighlight.invisibleCharacters": false,// 不可視文字を表示しない
+    "glassit.alpha": 220,
+    "glassit.step": 2,
+    "powermode.enabled": true,
+    "powermode.combo.counterSize": 2,
+    "powermode.combo.timeout": 0,
+    "powermode.combo.counterEnabled": "hide",
+    "powermode.combo.timerEnabled": "hide",
+    "powermode.presets": "fireworks",
+    "powermode.shake.intensity": 0,
+    // ------------------------------------------------------
+    //       _                      _   _   _
+    //__   _(_)_ __ ___    ___  ___| |_| |_(_)_ __   __ _ ___
+    //\ \ / / | '_ ` _ \  / __|/ _ \ __| __| | '_ \ / _` / __|
+    // \ V /| | | | | | | \__ \  __/ |_| |_| | | | | (_| \__ \
+    //  \_/ |_|_| |_| |_| |___/\___|\__|\__|_|_| |_|\__, |___/
+    //-------------------------------------------------------
+    // ------------------------
+    // Insert mode key bindings
+    // ------------------------
+    "vim.insertModeKeyBindings": [
+        { "before": ["j", "j"], "after": ["<Esc>"] },// jj でインサートモードから抜ける
+        { "before": [";", ";"], "commands": ["editor.action.triggerSuggest"] }// ;; で補完
+    ],
+
+    // ------------------------
+    // Normal mode key bindings
+    // ------------------------
+    "vim.normalModeKeyBindingsNonRecursive": [// normal モードのときのキーバインド設定
+        {// easymotion のショートカットを f に変更
+            "before": [
+                "f"
+            ],
+            "after": [
+                "leader",
+                "leader",
+                "leader",
+                "b",
+                "d",
+                "w"
+            ]
+        },
+        { "before": [">"],"commands" : ["editor.action.indentLines"]},//インデント追加
+        { "before": ["<"],"commands" : ["editor.action.outdentLines"]},// インデント削除
+        { "before": ["<C-h>"], "after": ["<C-w>", "h"] },// ctrl + h で左ウインドウへ移動
+        { "before": ["<C-j>"], "after": ["<C-w>", "j"] },// ctrl + j で下ウインドウへ移動
+        { "before": ["<C-k>"], "after": ["<C-w>", "k"] },// ctrl + k で上ウインドウへ移動
+        { "before": ["<C-l>"], "after": ["<C-w>", "l"] },// ctrl + l で右ウインドウへ移動
+        { "before": ["n"], "after": ["n", "z", "z"] },// 検索結果を画面中央付近に表示
+        { "before": ["N"], "after": ["N", "z", "z"] },// 検索結果を画面中央付近に表示
+        { "before": ["*"], "after": ["*", "z", "z"] },// 検索結果を画面中央付近に表示
+        { "before": ["#"], "after": ["#", "z", "z"] },// 検索結果を画面中央付近に表示
+        { "before": ["<C-t>"], "commands": ["workbench.action.terminal.new"] },// ctrl + t でターミナルを開く
+        { "before": ["J"], "after": ["1", "0", "j"] }, //移動を早める
+        { "before": ["K"], "after": ["1", "0", "k"] }, //移動を早める
+        { "before": ["H"], "after": ["^"] }, //端に移動
+        { "before": ["L"], "after": ["$"] }, //端に移動
+        { "before": ["<Leader>", "h"], "after": ["g", "T"] }, //Tab 移動
+        { "before": ["<Leader>", "j"], "after": ["g", "t"] }, //Tab 移動
+        { "before": ["<Leader>", "k"], "after": ["g", "T"] }, //Tab 移動
+        { "before": ["<Leader>", "l"], "after": ["g", "t"] }, //Tab 移動
+        { "before": ["<Leader>", "o"], "after": ["o", "<ESC>"] }, //空の行を挿入
+        { "before": ["<Leader>", "O"], "after": ["O", "<ESC>"] },//空の行を挿入
+        { "before": ["<Leader>", "q"], "commands": [":q!"] }, //tabを閉じる
+        { "before": ["<Leader>", "x"], "commands": [":qa!"] }, //すべてを閉じる
+        { "before": ["<Leader>", "w"], "commands": [":wa"] }, //すべてを保存
+        {
+            "before": ["<Leader>", ":"],
+            "commands": [{ "command": "workbench.action.showCommands" }]//コマンドパレット
+        },
+        {
+            "before": ["<Leader>", "c"],
+            "commands": [{ "command": "editor.action.commentLine" }]// コメント行にしてしまう
+        },
+        {
+            "before": ["<Leader>", ";"],
+            "commands": [{ "command": "workbench.action.quickOpen" }]// ファイル検索
+        },
+        {
+            "before": ["leader", "d"],
+            "commands": ["editor.action.revealDefinition"]// 定義元へ移動
+        }
+        // 以下マルチカーソル
+        //{ "before": ["<C-n>"], "after": ["g", "b"] }, //選択した文字に対して増やす
+        //{
+        //    "before": ["<C-k>"],
+        //    "commands": [{ "command": "editor.action.insertCursorAbove" }]
+        //},
+        //{
+        //    "before": ["<C-j>"],
+        //    "commands": [{ "command": "editor.action.insertCursorBelow" }]
+        //}
+    ],
+
+    // ------------------------
+    // Visual mode key bindings
+    // ------------------------
+    "vim.visualModeKeyBindingsNonRecursive": [
+        //vを押した直後はvのコマンドが残っているので注意
+        //visualmode後にすぐ実行したいものは、二重で定義する。
+        { "before": ["J"], "after": ["1", "0", "j"] }, //移動を早める
+        { "before": ["v", "J"], "after": ["1", "0", "j"] }, //移動を早める
+        { "before": ["K"], "after": ["1", "0", "k"] }, //移動を早める
+        { "before": ["v", "K"], "after": ["1", "0", "k"] }, //移動を早める
+        { "before": ["H"],"after": ["^"]},//端に移動
+        { "before": ["L"],"after": ["$","h"]}, //端に移動
+        { "before": ["v","H"],"after": ["^"]}, //端に移動
+        { "before": ["v","L"],"after": ["$","h"]}// 端に移動
+    ],
+
+    // ------------
+    // vim 共通設定
+    // ------------
+    "vim.camelCaseMotion.enable": true,// leader + w, e, b で camelCase の単語内での移動が可能になる
+    "vim.useSystemClipboard": true,// クリップボードを使う
+    "vim.hlsearch": true,// 検索時にハイライトする
+    "vim.visualstar": true,// visual モードで * と # を使えるようにする
+    "vim.easymotion": true,// easymotion (f で検索するやつ) を使う
+    "vim.easymotionMarkerForegroundColorOneChar": "rgba(0,240,170,0.9)", //1 文字のときの色(緑っぽくした)
+    "vim.statusBarColorControl": false,// ステータスバーの色を変更するかどうか
+    "vim.leader": "<space>",// リーダーキーをスペースにする
+    "vim.autoindent": true,// 自動インデント
+    "vim.surround": true,// カッコの自動挿入
+    "vim.highlightedyank.enable": true,// ヤンクしたときにハイライトする
+    "vim.highlightedyank.color": "rgba(0, 240, 170, 0.5)",// ハイライトの色
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#0ecf8f" // カーソルの色を薄緑にする
+    },
+    "vim.highlightedyank.duration": 1500,// ハイライトの時間
+    "vim.autoSwitchInputMethod.enable": true,// 入力メソッドの自動切り替え
+    "vim.commandLineModeKeyBindings": [],// コマンドラインモードでのキーバインドを無効化
+    // 結局 windows 向けにも作成したものの、うまく読み込めなかったので ubuntu 用のものを記載することにした。
+    "vim.autoSwitchInputMethod.defaultIM": "-c",
+    "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/fcitx-remote",
+    "vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/fcitx-remote {im}"
+}
