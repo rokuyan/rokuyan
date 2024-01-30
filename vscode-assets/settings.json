@@ -175,7 +175,8 @@
         { "before": ["H"],"after": ["^"]},//端に移動
         { "before": ["L"],"after": ["$","h"]}, //端に移動
         { "before": ["v","H"],"after": ["^"]}, //端に移動
-        { "before": ["v","L"],"after": ["$","h"]}// 端に移動
+        { "before": ["v","L"],"after": ["$","h"]},// 端に移動
+        {"before": ["t"], "commands": ["extension.translateLinesUnderCursor"]} // 翻訳
     ],
 
     // ------------
