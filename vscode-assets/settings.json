@@ -71,6 +71,7 @@
         { "before": ["<Leader>", "q"], "commands": [":q!"] }, //tabを閉じる
         { "before": ["<Leader>", "x"], "commands": [":qa!"] }, //すべてを閉じる
         { "before": ["<Leader>", "w"], "commands": [":wa"] }, //すべてを保存
+        {"before": ["d", "d"], "after": ["\"", "_", "d","d"]},// dd したときにレジスタに保存させない
         {
             "before": ["<Leader>", ":"],
             "commands": [{ "command": "workbench.action.showCommands" }]//コマンドパレット
@@ -118,10 +119,10 @@
         { "before": ["L"],"after": ["$","h"]}, //端に移動
         { "before": ["v","H"],"after": ["^"]}, //端に移動
         { "before": ["v","L"],"after": ["$","h"]},// 端に移動
-        {"before": ["t"], "commands": ["extension.translateLinesUnderCursor"]} // 翻訳
-
+        {"before": ["t"], "commands": ["extension.translateLinesUnderCursor"]}, // 翻訳
+        {"before": ["y"], "after": ["y", "g", "v"]},// yank した後に visual mode から抜けないようにする
+        {"before": ["d"], "after": ["\"", "_", "d"]}// visual mode で d したときにレジスタに保存させない
     ],
-
     // ------------
     // vim 共通設定
     // ------------
