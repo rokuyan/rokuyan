@@ -86,12 +86,20 @@
         },
         {
             "before": ["<leader>", "d"],
-            "commands": ["editor.action.revealDefinition"]// 定義元へ移動
+            "commands": [{ "command": "editor.action.revealDefinition"}]// 定義元へ移動
         },
         {
             "before": ["<leader>", "i"],
-            "commands": ["editor.action.organizeImports"]// 自動 import の整理。基本的には保存するだけで効くようにはしてるけど念の為設定(Java 向け)
+            "commands": [{ "command": "editor.action.organizeImports"}]// 自動 import の整理。基本的には保存するだけで効くようにはしてるけど念の為設定(Java 向け)
         },
+        {
+            "before": ["<leader>", "i"],
+            "commands": [{ "command": "editor.action.quickFix"}]// python 用の quickFix コマンド(import とか提案してくれる)
+        },
+        {
+            "before": ["<leader>", "s"],
+            "commands": [{ "command": "editor.action.sourceAction"}]// source action の実行(Java 向け / Getter, Setter とかを自動生成してくれたりする)
+        }
         // <C-o> で前の場所に戻る / <C-i> で進むはすでに入ってる
         // 以下マルチカーソル
         //{ "before": ["<C-n>"], "after": ["g", "b"] }, //選択した文字に対して増やす
@@ -141,7 +149,7 @@
     "workbench.colorCustomizations": {
         "editorCursor.foreground": "#0ecf8f", // カーソルの色を薄緑にする
         "editorStickyScroll.background": "#2a0f9f",// スクロールバーの背景色
-        "editorStickyScrollHover.background": "#484d80",// スクロールバーのホバー時の背景色
+        "editorStickyScrollHover.background": "#484d80"// スクロールバーのホバー時の背景色
     },
     "vim.highlightedyank.duration": 1500,// ハイライトの時間
     "vim.autoSwitchInputMethod.enable": true,// 入力メソッドの自動切り替え(ibus-mozc では正しく動作しない)
@@ -201,16 +209,15 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[go]": {
-        "editor.tabSize": 4,
+        "editor.tabSize": 4
     },
     "[python]": {
         "editor.formatOnType": true,
         "editor.tabSize": 4
     },
     "[java]": {
-        "editor.tabSize": 4,
+        "editor.tabSize": 4
     },
-
     "java.debug.settings.hotCodeReplace": "auto",// java の ホットコード置換を自動にする(デフォルトはマニュアルになってる)
     "typescript.updateImportsOnFileMove.enabled": "always",
     "files.trimTrailingWhitespace": true,// 行末の空白を削除
@@ -236,7 +243,7 @@
     "powermode.shake.intensity": 0,
     */
     // サジェスチョンの調子が悪くなったので true に変更
-    "git.suggestSmartCommit": false,// こっちのほうが英語で端的なコミットメッセージを作ってくれる
+    //"git.suggestSmartCommit": false,// こっちのほうが英語で端的なコミットメッセージを作ってくれる
     //"git.suggestSmartCommit": true,// git のコミットメッセージのサジェスチョンを有効にする
     "go.toolsManagement.autoUpdate": true,
     "editor.linkedEditing": true,
@@ -275,15 +282,17 @@
         |_|    \____|  \___|_| |_|\_/
 
             _                           _
-        __| | ___ _ __   ___ _ __   __| | ___ _ __   ___ ___
+         __| | ___ _ __   ___ _ __   __| | ___ _ __   ___ ___
         / _` |/ _ \ '_ \ / _ \ '_ \ / _` |/ _ \ '_ \ / __/ _ \
-        | (_| |  __/ |_) |  __/ | | | (_| |  __/ | | | (_|  __/
+       | (_| |  __/ |_) |  __/ | | | (_| |  __/ | | | (_|  __/
         \__,_|\___| .__/ \___|_| |_|\__,_|\___|_| |_|\___\___|
+                  |_|
     */
     "remote.SSH.remotePlatform": {// リモートの OS を指定
         "46.51.226.248": "linux"
     },
     "clangd.path": "/home/rogita/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/16.0.2/clangd_16.0.2/bin/clangd",
+    // Language Support for Java(TM) by Red Hat が自動生成してくれる。 開発環境によって異なる部分。
     "java.configuration.runtimes": [
         {
             "name": "JavaSE-1.8",
@@ -369,7 +378,9 @@
     "java.import.gradle.java.home": "/home/rogita/.sdkman/candidates/java/21.0.2-amzn",
     "plantuml.java": "/home/rogita/.sdkman/candidates/java/17.0.10-amzn/bin/java",
     "maven.executable.path": "/home/rogita/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/maven/latest/bin/mvn",
-    "java.import.gradle.home": "/home/rogita/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest"
+    "java.import.gradle.home": "/home/rogita/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest",
+    "git.openRepositoryInParentFolders": "never",
+    "git.suggestSmartCommit": false
 
     // 以下自動で追加された設定たち(未検証箇所)
 
