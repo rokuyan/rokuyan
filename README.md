@@ -16,6 +16,8 @@
 
 - 並列、非同期処理を活用した数千万 〜 数億件以上の大規模クエリを伴う構造化データの高速な演算処理。
 
+- 大規模なトランザクションを意識したキューイングを含めた設計・実装
+
 - Redis, ElasticSearch 等の Document Storage アーキテクチャを活用した高速な処理を必要とするアプリケーションの開発
 
 開発者以外とのコミュニケーションも積極的に行い、専門用語をなるべく用いず、わかりやすいコミュニケーションを常に意識している。
@@ -70,10 +72,11 @@
 | ---- | ---- |
 | JavaScript/TypeScript | Google App Script, Node.js, React, Next.js |
 | Design | bootstrap, MaterialUI, TailwindCSS |
-| AWS | Route53, S3, CloudWatch, EC2, RDS, AWS Lambda, CloudFront, ECS, ElasticCache |
+| AWS | Route53, S3, CloudWatch, EC2, RDS, AWS Lambda, CloudFront, ECS, ElasticCache, SQS, Batch, Glue |
 | Infrastructure | Terraform, FTP server, Docker,  Nginx, Apache, Elastic Search |
 | CI/CD | GitHub Actions |
 | Database | MySQL, PostgreSQL, MongoDB |
+| DataWareHouse | Google Big Query |
 | Document Storage | Redis, ElasticSearch |
 | Python3 | asyncio, aiohttp, numpy, pandas, polars, scikit-learn, Django, Flask, FastAPI, Transformers, PyTorch, keras, cuda, selenium |
 | Go | Echo |
@@ -91,15 +94,30 @@
 | ターミナル | bash, zsh, Guake |
 | ウインドウマネージャー | gnome, xfce |
 | 設計ツール | drawio |
-| コミュニケーションツール | Google Meets, Slack, Zoom, LINE, Chatwork, Messenger, Discord |
-| プロジェクト管理 | Trello |
+| コミュニケーションツール | Google Meets, Slack, Zoom, LINE, Chatwork, Messenger, Discord, TypeTalk |
+| プロジェクト管理 | Jira, Notion, Trello |
+| ドキュメント管理 | Confluence, Notion |
 | CI/CD | GitHub Actions |
 | IaC | Terraform |
 | OS | Debian, Ubuntu, Amazon Linux2(CentOS) |
 
 ## **経歴**
 
-### **2022 年 ~ 現在(WEB エンジニア / 正社員 | 同時並行で個人で会社経営 )**
+### **2024 年 ~ 現在 (テックリード / 正社員 | 同時並行で個人で会社経営)**
+
+2024 年 3 月からテックリードとして勤務。設計 ~ 開発まで幅広く担当
+
+- EC サイトの基幹システムのリプレイス案件のリーダーとして勤務
+
+- EC サイトの検索エンジンの開発(OpenSearch + ML)
+
+- 使用言語は `Python` 中心
+
+- 使用フレームワークは `Django`
+
+バックエンド ~ インフラを中心に担当
+
+### **2022 年 ~ 2024 年(WEB エンジニア / 正社員 | 同時並行で個人で会社経営 )**
 
 2022 年 7 月から WEB エンジニアとして勤務。
 
@@ -117,6 +135,8 @@
 
 - 使用したフレームワークは `Flask`, `React`, `Django`, `FastAPI`。
 
+インフラ、バックエンド、フロントエンドの全てを担当
+
 ### **2020 年 ~ 2021 年: 個人で株式会社を起業 (本社: 奈良県)**
 
 自社サービスの開発に取り組むとともに複数の業務委託案件に携わった。
@@ -132,6 +152,8 @@
 - 使用言語は `Pyhon3`, `Go`, `JavaScript`。
 
 - 使用したフレームワークは `Django`, `React`, `Echo`
+
+インフラ、バックエンド、フロントエンドの全てを担当
 
 ### **2020 年: 新卒入社の人材紹介会社を自己都合にて退職。フリーランスに転身。**
 
