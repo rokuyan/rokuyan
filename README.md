@@ -123,13 +123,11 @@
 | Database | MySQL, PostgreSQL, MongoDB |
 | DataWareHouse | Google Big Query |
 | ETL | Apache Spark(AWS Glue) |
-| Document Storage | Redis, ElasticSearch |
-| Python3 | asyncio, aiohttp, numpy, pandas, polars, scikit-learn, Django, Flask, FastAPI, Transformers, PyTorch, keras, cuda, selenium |
-| Go | Echo |
-| OS | Debian, Ubuntu, Amazon Linux2(CentOS), MacOS, Windows |
+| Document Storage | Redis, ElasticSearch(OpenSearch) |
+| Python3 | asyncio, aiohttp, numpy, pandas, polars, scikit-learn, Django, Flask, FastAPI, Transformers, PyTorch, keras, cuda, selenium, Playwright |
 
 <p align="center">
-    <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=8&i=python,go,django,flask,fastapi,react,postgres,mysql,redis,docker,bash,js,html,css,jquery,nodejs,typescript,bootstrap,tailwind,mui,webpack,aws,git,github,linux,pytorch,selenium,postman,vscode,vim" />
+    <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=8&i=python,django,flask,fastapi,react,postgres,mysql,redis,elasticsearch,docker,bash,js,html,css,jquery,nodejs,typescript,bootstrap,tailwind,mui,webpack,aws,git,github,gitlab,linux,pytorch,selenium,postman,vscode,vim" />
 </p>
 
 ### **開発ツール等**
@@ -138,116 +136,11 @@
 | ---- | ---- |
 | エディター | VSCode (vim) |
 | ターミナル | bash, zsh, Guake |
+| AI ツール | GitHub Copilot, ClaudeCode, Gemini CLI |
 | 設計ツール | drawio |
 | コミュニケーションツール | Google Meets, Slack, Zoom, LINE, Chatwork, Messenger, Discord, TypeTalk 等|
-| プロジェクト管理 | Jira, Notion, Trello, Backlog, GitHub 等 |
+| プロジェクト管理 | Jira, Notion, Trello, asana, Backlog, GitHub, GitLab 等 |
 | ドキュメント管理 | Confluence, Notion |
 | CI/CD | GitHub Actions |
 | IaC | Terraform |
-| OS | Debian, Ubuntu, Amazon Linux3 等 |
-
-## **経歴**
-
-### **2024 年 ~ 現在 (テックリード / 正社員 | 同時並行で個人で会社経営)**
-
-2024 年 3 月からテックリードとして勤務。設計 ~ 開発まで幅広く担当
-
-- EC サイトの基幹システムのリプレイス案件の PMO 兼 PL を担当
-
-- EC サイトの検索エンジンの設計・開発を担当(別案件)
-
-- 使用言語は `Python` 中心
-
-- 使用フレームワークは `Django`
-
-バックエンド ~ インフラを中心に担当
-
-### **2022 年 ~ 2024 年(WEB エンジニア / 正社員 | 同時並行で個人で会社経営 )**
-
-2022 年 7 月から WEB エンジニアとして勤務。
-
-- 1 人目の開発部立ち上げメンバーとして、運用規定等の策定・文書化を実施
-
-- 大規模な構造化データの解析、及びそのデータの可視化を行う WEB アプリケーションの開発を担当。
-
-- OpenAI を用いた業務効率化用 WEB アプリケーションの開発を担当。
-
-- 事業買収したシステムとの統合、及び新規事業開発業務(2 名体制)
-
-- 社内向けの RPA アプリケーションの開発。(API 等を用いて特定業務を自動化等)
-
-- 使用言語は `Python3`, `TypeScript`, `JavaScript`。
-
-- 使用したフレームワークは `Flask`, `React`, `Django`, `FastAPI`。
-
-インフラ、バックエンド、フロントエンドの全てを担当
-
-### **2020 年 ~ 2021 年: 個人で株式会社を起業 (本社: 奈良県)**
-
-自社サービスの開発に取り組むとともに複数の業務委託案件に携わった。
-
-- Django, React を用い、WEB アプリケーションを開発。
-
-- Echo(Go) を用いたサーバーサイドレンダリングのアプリケーションを開発。
-
-- 複数のプロキシを用いた非同期通信クローリングアプリの開発。
-
-- Windows 向け小規模アプリケーションを開発。
-
-- 使用言語は `Pyhon3`, `Go`, `JavaScript`。
-
-- 使用したフレームワークは `Django`, `React`, `Echo`
-
-インフラ、バックエンド、フロントエンドの全てを担当
-
-### **2020 年: 新卒入社の人材紹介会社を自己都合にて退職。フリーランスに転身。**
-
-退職後はフリーランスとして、クローラーの作成、 Chrome Extentions の開発等の小規模なアプリケーションの開発代行を行う。
-
-- 使用言語は `Python3`, `JavaScript` 。
-
-- その他、採用代行やアウトバウンドコールの代行の案件を行う。(人事/広報領域がメイン)
-
-### **2017 年: 人材紹介会社に新卒入社。営業職(インサイドセールス)として勤務**
-
-私のキャリアの入口は営業職だ。
-
-毎日 300 ~ 350 件の法人へのアウトバウンドコールと、各種事務作業(スカウトや契約書締結、日程調整等)を行った。
-
-- 業界ごとのニーズや、求人倍率、業界の将来の課題を自身なりに把握。
-
-- インサイドセールスチームの立ち上げ時期を担当した。
-
-- 休日の余暇時間を用いて `Python3` を用いて営業リスト作成のためのクローラーの作成し、実務でも使用。
-
-- 休日の余暇時間に `Hugging Face` 等を独学で学び業務に活かそうと試みた。(当時は GPT-2 が最新 / 達成できず)
-
-### **2016 年: 防衛大学校 情報工学科を卒業**
-
-- 大学の卒業論文ではデータ構造とアルゴリズムを専攻し、符号化の新規アルゴリズム開発について重点的に学んだ。
-
-- 配属は陸上自衛隊予定だった。
-
-- 使用言語は `C` 。
-
-## **連絡先等**
-
-良い求人がありましたら、以下にご連絡いただけますと幸いです。
-
-<p align="center">
-    <a href="https://www.linkedin.com/in/rokuro-ogita-9553a917b/">
-        <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-    </a>
-    <a href="https://discordapp.com/users/979753282710945792">
-        <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
-    </a>
-    <a href="https://m.me/RokuroOgita">
-        <img src="https://img.shields.io/badge/Messenger-00B2FF?style=for-the-badge&logo=messenger&logoColor=white">
-    </a>
-</p>
-
-<!--
-<a href="https://line.me/ti/p/sqMIBlZLow">
-    <img src="https://img.shields.io/badge/Line-00C300?style=for-the-badge&logo=line&logoColor=white">
-</a>
--->
+| OS | Debian, Ubuntu, Amazon Linux(CentOS), MacOS, Windows 等 |
